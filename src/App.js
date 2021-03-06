@@ -42,7 +42,7 @@ const App = () => {
         <div>
           <h4 style={{display: 'flex',  justifyContent:'center' , bottom:0,alignItems: "center", position:"fixed", color:"rgb(69,39,160)"}}> An AI enabled app &copy; Piyush Gupta</h4>
             <div className={classes.logoContainer}>
-                <img src="https://alan.app/voice/images/previews/preview.jpg" className={classes.alanLogo} alt="alan logo"/>
+                <img src="https://s3-us-west-1.amazonaws.com/welcome.ai/attachments/attachments/000/017/901/thumb/alan-logo-vertical-color.png?1571682334" className={classes.alanLogo} alt="alan logo"/>
             </div>
             <NewsCards articles={newsArticles} activeArticle={activeArticle}/>
         </div>
